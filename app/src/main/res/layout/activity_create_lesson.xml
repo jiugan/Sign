@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.CreateLessonActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/createLesson_toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="创建课程"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="课程名称："
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"/>
+
+        <Spinner
+            android:id="@+id/course"
+            android:entries="@array/atype"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <!--现在的话就是我们已经创建了一个下拉列表项但是还是没有任何的显示
+             所以现在的话我们要用我们的方法来定义我们的数组资源
+            -->
+        </Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="添加课程图片："
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/courseImage"
+        android:layout_width="250dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/add"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/divider"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="课程简介："
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/shape_serchar_boc1">
+
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/courseDecrale"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:hint="请输入课程简介"
+            android:inputType="textMultiLine"
+            android:minLines="1"
+            android:maxLines="5"
+            android:scrollbars="vertical"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/SelectTimeLayout"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:text="课程开始时间:"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/show_time"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:background="@drawable/shape_serchar_boc1"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:hint="请选择课程开始时间"/>
+
+        <ImageView
+            android:id="@+id/timeSelect"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/right"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/SelectTimeLayout1"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:text="课程结束时间:"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/show_time1"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:background="@drawable/shape_serchar_boc1"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:hint="请选择课程结束时间"/>
+
+        <ImageView
+            android:id="@+id/timeSelect1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/right"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/add_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_selector"
+        android:text="添加"
+        android:textSize="24sp"/>
+</LinearLayout>

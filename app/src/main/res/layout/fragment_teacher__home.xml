@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragment.Teacher_HomeFragment"
+    android:orientation="vertical">
+
+    <com.youth.banner.Banner
+        android:layout_marginTop="?attr/actionBarSize"
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        custom:indicator_height="5dp"
+        custom:indicator_margin="5dp"
+        custom:indicator_width="5dp"
+        custom:title_height="20dp"
+        custom:title_textcolor="@color/white"
+        custom:title_textsize="16sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@drawable/shape"
+        android:gravity="center">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/Teacher_home_card1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="160dp"
+            android:background="#00000000"
+            custom:cardCornerRadius="10dp"
+            android:layout_height="80dp">
+
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/home1"
+                android:background="@drawable/shape1"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="创建课程"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+
+
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/Teacher_home_card2"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="160dp"
+            custom:cardCornerRadius="10dp"
+            android:layout_height="80dp">
+
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:src="@drawable/home2"
+                android:scaleType="fitXY"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="进入课堂"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:shadowColor="#ff000000"
+        android:shadowRadius="10"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:text="Welcome use"/>
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/home2"
+            android:tooltipText="享学课堂"/>
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:shadowColor="#ff000000"
+            android:layout_gravity="center_vertical"
+            android:text="享学课堂"/>
+
+    </LinearLayout>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:background="#00000000"
+        app:cardCornerRadius="20dp">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/login_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="10dp"
+            android:hint="Username"
+            android:inputType="text"
+            android:shadowColor="#ff000000"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:shadowRadius="10"
+            android:singleLine="true"
+            app:met_baseColor="#0056d3"
+            app:met_clearButton="true"
+            app:met_floatingLabel="highlight"
+            app:met_floatingLabelText="Username"
+            app:met_hideUnderline="true"
+            app:met_iconLeft="@mipmap/person_central"
+            app:met_iconPadding="10dp"
+            app:met_maxCharacters="18"
+            app:met_minCharacters="5"
+            app:met_primaryColor="#0056d3"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/login_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginRight="10dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:shadowColor="#ff000000"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:shadowRadius="10"
+            android:singleLine="true"
+            app:met_baseColor="#0056d3"
+            app:met_clearButton="true"
+            app:met_floatingLabel="highlight"
+            app:met_floatingLabelText="Password"
+            app:met_hideUnderline="true"
+            app:met_iconLeft="@mipmap/password"
+            app:met_iconPadding="10dp"
+            app:met_maxCharacters="18"
+            app:met_minCharacters="5"
+            app:met_primaryColor="#0056d3" />
+
+        <!--        <com.google.android.material.button.MaterialButton-->
+        <!--            android:layout_marginTop="75dp"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="55dp"-->
+        <!--            android:layout_marginLeft="10dp"-->
+        <!--            android:layout_marginRight="10dp"-->
+        <!--            android:text="Login"-->
+        <!--            android:textAppearance="?android:attr/textAppearanceButton"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:gravity="center"-->
+        <!--            android:textSize="24sp"-->
+        <!--            android:backgroundTint="#add8e6"-->
+        <!--            android:textStyle="italic"-->
+        <!--            app:cornerRadius="10dp"/>-->
+
+        <!--        <com.google.android.material.button.MaterialButton-->
+        <!--            android:layout_marginTop="150dp"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_marginRight="10dp"-->
+        <!--            android:layout_marginLeft="10dp"-->
+        <!--            android:layout_height="55dp"-->
+        <!--            android:text="sign up"-->
+        <!--            android:textAppearance="?android:attr/textAppearanceButton"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:gravity="center"-->
+        <!--            android:textSize="24sp"-->
+        <!--            android:textStyle="italic"-->
+        <!--            android:backgroundTint="#add8e6"-->
+        <!--            app:cornerRadius="10dp"/>-->
+
+        <LinearLayout
+            android:paddingLeft="17dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="200dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/remember_pas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <CheckedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="记住密码"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/login_login"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="280dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_selector"
+            android:text="Login"
+            android:textSize="24sp"
+            android:textStyle="italic"/>
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:shadowColor="#ff000000"
+        android:shadowRadius="20"
+        android:gravity="center"
+        android:shadowDx="20"
+        android:shadowDy="20"
+        android:layout_marginBottom="0dp"
+        android:text="登录即代表同意隐私协议"/>
+</LinearLayout>

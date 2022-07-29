@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Soft/AVD/platforms/android-32/data/res/layout/simple_list_item_1.xml" value="0.1331521739130435" />
+        <entry key="..\:/Test/Sign/app/src/main/res/drawable/activity05_circle_text.xml" value="0.265625" />
+        <entry key="..\:/Test/Sign/app/src/main/res/drawable/btn_selector.xml" value="0.3723076923076923" />
+        <entry key="..\:/Test/Sign/app/src/main/res/drawable/color_gradient.xml" value="0.265625" />
+        <entry key="..\:/Test/Sign/app/src/main/res/drawable/shape.xml" value="0.3723076923076923" />
+        <entry key="..\:/Test/Sign/app/src/main/res/drawable/shape1.xml" value="0.3723076923076923" />
+        <entry key="..\:/Test/Sign/app/src/main/res/drawable/shape_serchar_boc.xml" value="0.3723076923076923" />
+        <entry key="..\:/Test/Sign/app/src/main/res/drawable/shape_serchar_boc1.xml" value="0.3723076923076923" />
+        <entry key="..\:/Test/Sign/app/src/main/res/drawable/shape_serchar_boc2.xml" value="0.265625" />
+        <entry key="..\:/Test/Sign/app/src/main/res/layout/activity_create_lesson.xml" value="0.3619791666666667" />
+        <entry key="..\:/Test/Sign/app/src/main/res/layout/activity_login.xml" value="0.3619791666666667" />
+        <entry key="..\:/Test/Sign/app/src/main/res/layout/activity_main.xml" value="0.3619791666666667" />
+        <entry key="..\:/Test/Sign/app/src/main/res/layout/activity_manger.xml" value="0.19895833333333332" />
+        <entry key="..\:/Test/Sign/app/src/main/res/layout/activity_personal_data.xml" value="0.264" />
+        <entry key="..\:/Test/Sign/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/Test/Sign/app/src/main/res/layout/activity_show_class.xml" value="0.24947916666666667" />
+        <entry key="..\:/Test/Sign/app/src/main/res/layout/activity_sign_details.xml" value="0.24947916666666667" />
+        <entry key="..\:/Test/Sign/app/src/main/res/layout/activity_splash.xml" value="0.264" />
+        <entry key="..\:/Test/Sign/app/src/main/res/layout/activity_student_course_details.xml" value="0.264" />
+        <entry key="..\:/Test/Sign/app/src/main/res/layout/activity_student_delete_class.xml" value="0.24947916666666667" />
+        <entry key="..\:/Test/Sign/app/src/main/res/layout/activity_teacher.xml" value="0.3619791666666667" />
+        <entry key="..\:/Test/Sign/app/src/main/res/layout/alreadysigndata.xml" value="0.24947916666666667" />
+        <entry key="..\:/Test/Sign/app/src/main/res/layout/classdetails_item.xml" value="0.24947916666666667" />
+        <entry key="..\:/Test/Sign/app/src/main/res/layout/dialog.xml" value="0.3619791666666667" />
+        <entry key="..\:/Test/Sign/app/src/main/res/layout/dialog1.xml" value="0.3619791666666667" />
+        <entry key="..\:/Test/Sign/app/src/main/res/layout/dialog2.xml" value="0.24947916666666667" />
+        <entry key="..\:/Test/Sign/app/src/main/res/layout/fragment_dashboard.xml" value="0.3619791666666667" />
+        <entry key="..\:/Test/Sign/app/src/main/res/layout/fragment_finish_class.xml" value="0.24947916666666667" />
+        <entry key="..\:/Test/Sign/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Test/Sign/app/src/main/res/layout/fragment_notifications.xml" value="0.3619791666666667" />
+        <entry key="..\:/Test/Sign/app/src/main/res/layout/fragment_onfinish.xml" value="0.24947916666666667" />
+        <entry key="..\:/Test/Sign/app/src/main/res/layout/fragment_teacher__dashboard.xml" value="0.264" />
+        <entry key="..\:/Test/Sign/app/src/main/res/layout/fragment_teacher__home.xml" value="0.3619791666666667" />
+        <entry key="..\:/Test/Sign/app/src/main/res/layout/fragment_teacher__notifications.xml" value="0.3619791666666667" />
+        <entry key="..\:/Test/Sign/app/src/main/res/layout/simple_list_item_1.xml" value="0.24947916666666667" />
+        <entry key="..\:/Test/Sign/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3619791666666667" />
+        <entry key="..\:/Test/Sign/app/src/main/res/menu/bottom_nav_teacher_menu.xml" value="0.3619791666666667" />
+        <entry key="..\:/Test/Sign/app/src/main/res/menu/context.xml" value="0.24947916666666667" />
+        <entry key="..\:/Test/Sign/app/src/main/res/menu/student.xml" value="0.24947916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
